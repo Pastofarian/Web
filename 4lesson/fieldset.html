@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Formulaire : Exercice</title>
+</head>
+
+<body>
+
+
+    <form>
+        <h1>Abonnement à la Newsletter</h1>
+        <fieldset>
+            <legend>Identification</legend>
+
+            <p>
+                Nom : <input type="text" name="nom" placeholder="Votre nom" />
+            </p>
+
+            <p>
+                Prénom : <input type="text" name="prenom" placeholder="Votre prénom" />
+            </p>
+            <p>
+                E-Mail : <input type="email" name="eMail" placeholder="Votre email" />
+            </p>
+
+            <p>
+                Pays :
+                <select name="pays">
+                    <option value="belgique" selected>Belgique</option>
+                    <option value="japon">France</option>
+                    <option value="allemagne">Allemagne</option>
+                    <option value="etatsunis">Etats-Unis</option>
+                    <option value="chine">Chine</option>
+                </select>
+            </p>
+
+            <p>
+                Date de naissance : <input type="date" name="dateNaissance" />
+            </p>
+        </fieldset>
+        <br />
+        <fieldset>
+            <legend>Votre Abonnement</legend>
+            <p>
+                <input type="radio" name="periode" value="hebdo" checked="checked" /> Newsletter hebdomadaire<br />
+                <input type="radio" name="periode" value="mens" /> Newsletter mensuelle<br />
+                <input type="radio" name="periode" value="trim" />
+                Newsletter trimestrielle
+            </p>
+
+
+            <p>
+                <input type="reset" name="reset" value="Annuler" />
+                <input type="submit" name="valid" value="Valider" />
+            </p>
+        </fieldset>
+    </form>
+
+
+</body>
+
+</html>

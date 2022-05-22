@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les formulaires</title>
+</head>
+
+<body>
+    <h1>Les formulaires</h1>
+    <form method="post" action="traitement.php">
+
+        <!-- attribut autocomplete + attribut placeholder + attribut required-->
+        <label for="prenom">Entrez votre prénom</label>
+        <input type="text" name="prenom" id="prenom" autocomplete="on" placeholder="Ex: Pierre" required="required"><br>
+
+        <!-- attribut autofocus -->
+        <label for="nom">Entrez votre nom</label>
+        <input type="text" name="nom" id="nom" autofocus="autofocus"><br>
+
+        <!-- attribut min et max -->
+        <label for="nombre">Choisissez un chiffre entre 1 et 10</label>
+        <input type="number" name="nombre" id="nombre" min="1" max="10">
+
+        <br><br><br>
+
+        <!-- type radio + attribut checked-->
+        Homme et femme <br>
+        <input type="radio" id="homme" name="sexe" value="homme" checked="checked">
+        <label for="homme">Un homme</label><br>
+        <!-- les labels permettent de lier les intitulés des champs de formulaires aux input et ainsi rendre le tout plus accessible.
+        lorsqu'on clique sur l'input, le curseur de saisie est directement actif dans l'input et c'est mieux traité par les navigateurs vocaux -->
+        <input type="radio" id="femme" name="sexe" value="femme">
+        <label for="femme">Une femme</label><br><br>
+
+        Majeur ou mineur ?<br>
+        <input type="radio" id="mineur" name="age" value="mineur">
+        <label for="mineur">mineur</label><br>
+
+        <input type="radio" id="majeur" name="age" value="majeur">
+        <label for="majeur">majeur</label><br><br>
+
+        <!-- type checkbox -->
+        Quel(s) sport(s) pratiquez vous ?<br>
+        <input type="checkbox" name="sport" value="natation" id="natation" checked="checked">
+        <label for="natation">Natation</label><br>
+
+        <input type="checkbox" name="sport" value="velo" id="velo">
+        <label for="velo">Velo</label><br>
+
+        <input type="checkbox" name="sport" value="course" id="course" checked="checked">
+        <label for="course">Course à pied</label><br><br>
+
+        <!-- type text -->
+        <label for="prenom">Entrez votre prénom</label>
+        <input type="text" id="prenom" name="prenom"><br>
+
+        <!-- type password -->
+        <label for="pass">Entrez un mot de passe</label>
+        <input type="password" id="pass" name="pass"><br>
+
+        <!-- type date -->
+        <label for="naissance">Votre date de naissance</label>
+        <input type="date" id="n" name="naissance"><br>
+        <!-- type email -->
+        <label for="email">Entrez votre email</label>
+        <input type="email" id="email" name="mail"><br>
+
+        <!-- type url -->
+        <label for="site">Entrez votre site</label>
+        <input type="url" id="site" name="mail"><br>
+
+        <!-- type numéro -->
+        <label for="tel">Entrez un numéro</label>
+        <input type="number" id="tel" name="tel"><br>
+
+        <!-- multilignes -->
+        <label for="prez">Une petite présentation ?</label>
+        <textarea id="prez" name="presentation"></textarea><br>
+
+        <!-- liste déroulante avec catégories + attribut selected-->
+        Où habitez vous ?<br>
+        <select name="pays">
+            <optgroup label="Europe">
+                <option value="france">France</option>
+                <option value="belgique" selected="selected">Belgique</option>
+                <option value="allemagne">Allemagne</option>
+            </optgroup>
+            <optgroup label="Afrique">
+                <option value="maroc">Maroc</option>
+                <option value="tunise">Tunisie</option>
+            </optgroup>
+            <optgroup label="Amerique">
+                <option value="canada">Canada</option>
+            </optgroup>
+        </select>
+        <br><br>
+
+        <!-- bouton -->
+        <input type="submit" value="Envoyer">
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+body {
+    background-color: #F4F2EC;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 1.4em;
+    font-style: italic;
+}
+
+h2 {
+    color: #00A0C6;
+    font-style: italic;
+    font-size: 1em;
+}
+
+h3 {
+    font-size: 0.8em;
+    font-style: italic;
+    color: #A92C2B;
+}
+
+p {
+    font-size: 0.7em;
+    color: #7A6832;
+}
+
+a {
+    color: #A92C2B;
+    text-decoration: none;
+    font-size: 0.8em;
+}
