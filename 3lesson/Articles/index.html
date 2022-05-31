@@ -2,37 +2,50 @@
 <html lang="fr">
 
 <head>
+    <!--Aseglio Christophe-->
+    <!--devoir à remettre pour le 03/06/2022-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/article.css">
     <title>article1</title>
 </head>
 
 <body>
-    <header>
-        <a href="article1.html" title="Article 1" target="_blank">Article 1</a>|<a href="article2.html"
-            title="Article 2" target="_blank">Article 2</a>|<a href="article3.html" title="Article 3"
-            target="_blank">Article 3</a>|<a href="article4.html" title="Article 4" target="_blank">Article
+    <nav>
+        <a href="index.html" title="Article 1">Article 1</a>|<a href="article2.html" title="Article 2">Article
+            2</a>|<a href="article3.html" title="Article 3">Article 3</a>|<a href="article4.html"
+            title="Article 4">Article
             4</a>
-        <p><img src="images/th-3947174530.jpeg" alt="Gare d'Enghien"></p>
-    </header>
-    <main role="main">
+    </nav>
+    <header>
+        <!-- J'aurais pu utiliser aussi un div à la place du header et lui mettre une classe par exemple, mais l'idéal comme on l'a vu est de ne pas utiliser de balise div-->
         <h1>Ne tombez pas dans une gare !</h1>
         <h2>Josée s'est cassé la jambe à la gare d'Enghien : la justice la condamne à... indemniser la SNCB !</h2>
-        <p> BRUXELLES Selon nos infos, la cour d'appel de Bruxelles a condamné, la semaine passée, une dame de 75 ans, à
+        <h3>BRUXELLES</h3>
+        <figure>
+            <img class="polaroid" src="images/th-3947174530.jpeg" alt="Gare d'Enghien">
+            <!--Pour utiliser une classe-->
+            <figcaption>Un train de la sncb</figcaption>
+        </figure>
+    </header>
+    <main role="main">
+        <p> Selon nos infos, la cour d'appel de Bruxelles a condamné, la semaine passée, une dame de 75 ans, à
             indemniser le Groupe SNCB et SA Infrabel, qu'elle déclare non responsables d'un accident qui s'était produit
             dans
             ses installations.</p>
         <p>
-            Modeste pensionnée, Mme Josée Roggeman perçoit 870,66 euros d'allocation de retraite mensuelle. Le 19
-            février, la
-            cour d'appel l'a condamnée à verser 1.356,97 € aux chemins de fer. L'accident s'était produit dans
+            Modeste pensionnée, Mme Josée Roggeman perçoit 870,66 euros d'allocation de retraite mensuelle.<span> Le 19
+                février, la
+                cour d'appel l'a condamnée à verser 1.356,97 € aux chemins de fer.</span> L'accident s'était produit
+            dans
             l'enceinte de la
             gare d'Enghien où, à la suite du rehaussement des quais, une sorte d'estrade provisoire avait été aménagée.
         </p>
         <p> L'installation de fortune n'était pas signalée et Mme Roggeman est tombée. Plus conséquent que le col du
-            fémur, les
-            radios ont montré une triple fracture du fémur. Après l'accident, la gare d'Enghien a installé une
+            fémur, <span>
+                radios ont montré une triple fracture du fémur. </span>Après l'accident, la gare d'Enghien a installé
+            une
             signalisation
             appropriée, absente précédemment, qui prévient désormais le public du danger.</p>
         <p> Pour la cour d'appel, la SNCB n'a commis aucune faute et c'était à Mme Roggeman "d'être plus prudente en
@@ -44,9 +57,11 @@
             l'arrière du
             bâtiment où l'estrade représentait dès lors un véritable obstacle. Sans parler des 3.806,69 € de frais
             d'avocats,
-            Mme Roggeman devra indemniser Infrabel à concurrence de 158,5 %, soit plus d'un mois et demi, du montant de
-            sa
-            retraite.</p>
+            <span>Mme Roggeman devra indemniser Infrabel à concurrence de 158,5 %, soit plus d'un mois et demi, du
+                montant de
+                sa
+                retraite.</span>
+        </p>
         <p> Son avocat lui déconseille de se pourvoir en cassation, dont la procédure lui coûtera au minimum 2.500 euros
             supplémentaires.</p>
         <p> Avec le recul, Josée regrette d'avoir fait appel à la justice. L'accident, qui la fait toujours souffrir,
@@ -68,8 +83,10 @@
             d'attention".</p>
     </main>
     <footer>
-        <h3>Gilbert Dupont</h3>
-        <h4>(Journal et date de l'article)</h4>
+        <p id="id1">Gilbert Dupont</p>
+        <!--Pour utiliser un id-->
+        <!--Un id doit être unique, par contre ici "id1" se retrouve également dans l'article 2, 3 et 4 pour le même élément (Nom de l'auteur). Est-ce autorisé ?-->
+        <p>29/05/2022</p>
     </footer>
 </body>
 

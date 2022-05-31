@@ -1,0 +1,30 @@
+body {
+    background-color: silver;
+    color: #4B4B4B;
+
+}
+
+h1 {
+    color: orange;
+    text-align: center;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+img {
+    border: 2px solid orange;
+    margin: 1em 3em;
+}
+
+strong,
+em,
+hr {
+    color: orange;
+
+}

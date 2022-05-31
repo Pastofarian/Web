@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Roboto:ital,wght@0,300;0,400;1,300&family=Tiro+Devanagari+Hindi&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #3c3c3c;
+    padding: 3%;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(209, 209, 209);
+}
+
+a {
+    font-family: 'Tiro Devanagari Hindi', serif;
+    font-size: 1.1em;
+    margin: 30px;
+    color: rgb(211, 51, 51);
+    text-decoration: none;
+}
+
+
+.polaroid {
+    border-style: solid;
+    border-color: white;
+    border-width: 7px 7px 25px 7px;
+    box-shadow: 1px 1px 3px #222;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+    color: rgb(211, 51, 51);
+    text-align: left;
+}
+
+h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.2em;
+    font-weight: lighter;
+    width: 90%;
+    padding: 0% 4% 3% 4%;
+    border-bottom: 1.2px solid rgb(175, 175, 175);
+    line-height: 2em;
+}
+
+h3 {
+    font-size: 0.7em;
+    font-weight: lighter;
+}
+
+header {
+    background-color: rgb(239, 239, 239);
+    padding: 2% 4% 2% 4%;
+    margin: 2% 8% 2% 8%;
+}
+
+footer {
+    font-family: 'Dancing Script', cursive;
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1em;
+    font-weight: 100;
+    color: rgb(211, 51, 51);
+    /*Dans l'exemple, l'article 1 a le figcaption en rouge dans les 3 autres articles il est en gris*/
+}
+
+span {
+    color: rgb(211, 51, 51);
+    font-weight: 400;
+}
+
+#id1 {
+    color: rgb(211, 51, 51);
+    font-weight: bold;
+    font-size: 1.2em;
+}

@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&display=swap');
+
+body {
+    background-color: #;
+    /*code rgb (red green blue)*/
+    font-family: 'Roboto', sans-serif;
+}
+
+
+h1,
+h2 {
+    color: brown;
+    font-family: 'Dancing Script', cursive;
+}
+
+h1 {
+    font-size: 4em;
+    /* unité relative (<>absolue) "em" change en fonction de l'écran */
+}
+
+h2 {
+    font-size: 2.5em;
+}
