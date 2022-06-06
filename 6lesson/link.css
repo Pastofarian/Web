@@ -1,0 +1,39 @@
+body {
+    /* background-color: #CEEEF6; */
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Aretha_Franklin_birthplace_406_Lucy_Ave_Memphis_TN_06.jpg/220px-Aretha_Franklin_birthplace_406_Lucy_Ave_Memphis_TN_06.jpg"), url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/The_Fabs.JPG/220px-The_Fabs.JPG");
+    background-position: right bottom, left top;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0066CC;
+    margin-top: 100px;
+
+}
+
+a {
+    font-weight: bold;
+    /*color: blue;*/
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: aquamarine;
+}
+
+a:hover {
+    color: pink;
+}
+
+div {
+    background-image: url("images/feuille.jpg");
+    text-align: left;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border: 1px solid #B3DAE1;
+    padding: 10px;
+}
+
+#id1 {}

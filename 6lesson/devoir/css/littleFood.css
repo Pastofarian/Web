@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+    background-image: url("../images/nature-background.jpg");
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(66, 141, 57);
+    font-size: 1em;
+    font-weight: 300;
+    margin: 1em;
+    padding: 1em;
+}
+
+main {
+    background-image:
+        url("../images/bg-mid_haut.png"),
+        url("../images/bg-mid_bas.png");
+    background-repeat:
+        repeat-x,
+        repeat-x;
+    background-size:
+        contain,
+        contain;
+    background-position:
+        top,
+        bottom;
+    width: auto;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.7;
+    margin: 3em 4em;
+    padding: 6em 1em;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(66, 141, 57);
+}
+
+a:link {
+    color: rgb(66, 141, 57);
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(105, 69, 141);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(0, 51, 83);
+}
+
+#image1 {
+    width: 200px;
+    height: 200px;
+    float: right;
+}

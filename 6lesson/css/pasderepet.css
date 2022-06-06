@@ -1,0 +1,30 @@
+body {
+	margin-top: 20px;
+	background-color: #CFDEE1;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	text-align: center;
+}
+
+#contenu {
+	background-image: url(../images/pat_feuille.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	/*facultatif (par s�curit�) 
+http://www.w3schools.com/cssref/pr_background-position.asp
+	*/
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.signature {
+	background-image: url(../images/kipling-signature.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	/* border-bottom: 1.2px solid rgb(175, 175, 175);
+	border-top: 1.2px solid rgb(175, 175, 175); */
+	height: 200px;
+	/* La hauteur est obligatoire pour voir la signature (sinon, la zone n'est pas assez haute que pour visualiser l'image d'arri�re-plan (n'h�sitez pas � ajouter une bordure pour mieux comprendre ce ph�nom�ne !)*/
+}
