@@ -2,6 +2,9 @@
 
 body {
     background-image: url("../images/nature-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
     background-size: cover;
     font-family: 'Open Sans', sans-serif;
     color: rgb(66, 141, 57);
@@ -18,9 +21,9 @@ main {
     background-repeat:
         repeat-x,
         repeat-x;
-    background-size:
+    /* background-size:
         contain,
-        contain;
+        contain; */
     background-position:
         top,
         bottom;

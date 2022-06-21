@@ -1,0 +1,72 @@
+.css {
+    color: black;
+    font-size: 700%;
+    font-weight: bolder;
+    position: absolute;
+    left: 200px;
+    top: 100px;
+    z-index: 3;
+}
+
+.cascading {
+    color: red;
+    font-size: 600%;
+    font-weight: bold;
+    position: absolute;
+    left: 200px;
+    top: 100px;
+    z-index: 2;
+}
+
+.stylesheet {
+    color: grey;
+    font-size: 600%;
+    font-weight: bold;
+    position: absolute;
+    left: 200px;
+    top: 100px;
+    z-index: 1;
+}
+
+/* Solution
+p{
+    font-family: Arial;
+	text-align: justify;
+	color: Gray;
+	font-size: 20px;
+	font-family:arial;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+p.css
+{
+font-family:"Arial black";
+font-size: 150px;
+font-weight: 900;
+color: Black;
+position:absolute;
+top:150px;
+left:60px;
+z-index: 10;
+permet de d�terminer l'ordre de superposition des �l�ment, la valeur la plus �lev�e va placer cet �l�ment au dessus des autres
+}
+
+p.cascading{
+font-size: 130px;
+font-style: italic;
+color: red;
+position:absolute;
+top:240px;
+left:100px;
+z-index: 2;
+}
+
+p.stylesheet{
+font-size: 100px;
+color: silver;
+position:absolute;
+top:220px;
+left:160px;
+z-index: 1;
+} */

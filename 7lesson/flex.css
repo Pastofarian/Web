@@ -1,0 +1,62 @@
+ul {
+    border: 1px solid black;
+    padding: 1em;
+}
+
+li {
+    border: 1px solid red;
+    list-style-type: none;
+    /*pas de puce*/
+    padding: 2em;
+}
+
+/* ul {
+    // mettre les blocs à côté
+    border: 1px solid black;
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+/* ul {
+    border: 1px solid black;
+    padding: 1em;
+    display: flex;
+    // sens horizontal par défaut
+justify-content: space-around;
+}
+*/
+ul {
+
+    border: 1px solid black;
+    padding: 1em;
+    display: flex;
+    /*sens horizontal par défaut */
+    height: 500px;
+    /* de manière à "voir" l'axe perpendiculaire au sens horizon 
+    tal*/
+    justify-content: center;
+    /* alignement dans le sens horizontal = axe princ 
+    ipal*/
+    align-items: flex-start;
+    /* alignement dans le sens vertical = axe secondaire  */
+
+}
+
+/* ul {
+    border: 1px solid black;
+    padding: 1em;
+    display: flex;
+}
+
+.e1 {
+    width: 100px;
+}
+
+.e2 {
+    flex: 1;
+}
+
+.e3 {
+    width: 100px;
+} */

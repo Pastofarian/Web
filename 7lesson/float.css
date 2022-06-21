@@ -1,0 +1,11 @@
+body {
+    background-color: #2574b0;
+}
+
+figure {
+    float: left;
+}
+
+.floatstop {
+    clear: both;
+}

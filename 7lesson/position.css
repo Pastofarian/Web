@@ -1,0 +1,49 @@
+header {
+    position: absolute;
+    top: 20px;
+    left: 150px;
+}
+
+.jaune {
+    position: relative;
+    bottom: 5px;
+    left: 20px;
+    background-color: yellow;
+}
+
+/* div{ ou à la place du padding
+	width:50px;
+	height:50px;
+	}  */
+
+#b1 {
+    background-color: blue;
+    padding: 50px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#b2 {
+    background-color: red;
+    padding: 50px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#b3 {
+    background-color: yellow;
+    padding: 50px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+#b4 {
+    background-color: green;
+    padding: 50px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
