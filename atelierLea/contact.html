@@ -5,34 +5,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/millesime.css">
-    <title>Contact - Le Millésime</title>
-    <!--Aseglio Christophe Examen 24/06/2022-->
+    <link rel="stylesheet" type="text/css" href="css/lea.css">
+    <title>Contact - Les Ateliers de Léa</title>
+    <!-- Examen 24/06/2022-->
 </head>
 
 <body>
     <header>
+        <!--class container for phone & social media-->
         <div class="container"><span id="phone_info">+33 (0) 380.62.80.37</span>
             <a href="https://www.facebook.com/" target="_blank"><img id="facebook"
-                    src="/Web/Millesime/images/facebook-logo-circle-white.png" alt="facebook"></a><a
-                href="https://www.instagram.com/" target="_blank"><img id="instagram"
-                    src="/Web/Millesime/images/instagram-logo-black-transparent-381383913.png" alt="instagram"></a>
+                    src="images/facebook-logo-circle-white.png" alt="facebook"></a><a href="https://www.instagram.com/"
+                target="_blank"><img id="instagram" src="images/instagram-logo-black-transparent-381383913.png"
+                    alt="instagram"></a>
         </div>
-        <h1>Le Millésime</h1>
+        <h1>Les Ateliers de Léa</h1>
         <nav>
             <ul class="navigation_menu">
-                <!--Contact & réservations-->
-                <li><a class="menu_link" href="contact.html" title="Contact">CONTACT</a></li>
+                <!--Contact & Newsletter-->
+                <li><a class="menu_link" href="contact.html" title="Contact">CONTACT & NEWSLETTER</a></li>
                 <li>|</li>
-                <!--Brochure opens in a blank page-->
-                <li><a class="menu_link" href="brochure.pdf" target="_blank" title="Brochure">BROCHURE</a></li>
+                <!--Pour une éventuelle brochure-->
+                <li><a class="menu_link" href="images/texte.txt" target="_blank" title="Brochure">BROCHURE</a></li>
                 <li>|</li>
-                <!--link "Les chambres" not in use-->
-                <li><a class="menu_link" href="#" title="Les chambres">LES CHAMBRES</a></li>
+                <li><a class="menu_link" href="news.html" title="News">NEWS</a></li>
                 <li>|</li>
-                <li><a class="menu_link" href="cuisine.html" title="Carte & Menus">CARTE & MENU</a></li>
+                <li><a class="menu_link" href="galerie.html" title="Galerie">GALERIE</a></li>
                 <li>|</li>
-                <li><a class="menu_link" href="index.html" title="Le restaurant">LE RESTAURANT</a></li>
+                <li><a class="menu_link" href="techniques.html" title="Techniques">TECHNIQUES</a></li>
+                <li>|</li>
+                <li><a class="menu_link" href="index.html" title="L'atelier'">L'ATELIER</a></li>
             </ul>
         </nav>
     </header>
@@ -41,6 +43,7 @@
             <div class="container_child">
                 <!--fake form-->
                 <form method="post" action="traitement.php">
+                    <h2>Inscription Newsletter</h2>
                     <p class="input_form"><label for="prenom">Prénom *</label>
                         <input type="text" name="prenom" id="prenom" autocomplete="on" required>&nbsp;&nbsp;&nbsp;
                         <!--espaces via html-->
@@ -56,20 +59,20 @@
                         <input type="number" id="tel" name="tel" autocomplete="on" required>
                     </p>
                     <p class="input_form">
-                        <label for="naissance">Date</label>
+                        <label for="naissance">Date de Naissance</label>
                         <input type="date" id="naissance" name="naissance">
                     </p>
                     <p class="input_form">
-                        Midi / Soir ?
-                        <select name="time" id="time">
-                            <option value="Midi">Midi
+                        Mail / Facebook ?
+                        <select name="sendBy" id="sendBy">
+                            <option value="mail">Mail
                             </option>
-                            <option value="Soir">Soir</option>
+                            <option value="facebook">Facebook</option>
                         </select>
                     </p>
                     <p class="input_form">
-                        Nombre de couverts
-                        <select name="people" id="people">
+                        Nombre de créations commandées par le passé
+                        <select name="creation" id="creation">
                             <option value="1">1</option>
                             <option value="2">2</option>
                             <option value="3">3</option>
@@ -104,15 +107,15 @@
                 <h2>Horaires d'ouverture</h2>
             </li>
             <li>
-                <p>Mardi - Samedi</p>
+                <p>Lundi - Vendredi</p>
             </li>
 
             <li>
-                <p>12:00 - 14:00</p>
+                <p>08:00 - 17:00</p>
             </li>
 
             <li>
-                <p>19:00 - 21:30</p>
+                <p>Ouvert les deuxièmes et quatrièmes dimanche du mois</p>
             </li>
         </ul>
         <ul class="footer__nav">
@@ -135,14 +138,14 @@
         <ul class="footer__nav">
             <li class="nav__item">
             <li>
-                <h2>Le Millésime</h2>
+                <h2>Les Ateliers de Léa</h2>
             </li>
             <li>
-                <p>1 rue Traversière
+                <p>91 rue grande
             </li>
 
             <li>
-                <p>21220 Chambolle Musigny</p>
+                <p>27700 Fresne-l'Archevêque</p>
             </li>
 
             <li>
@@ -167,7 +170,8 @@
         </ul>
     </footer>
     <div>
-        <p id="copyright">&copy; 2022 Le Millésime. All rights reserved.</p>
+        <!--obligé de mettre cette div en dehors de mon footer pour ne pas qu'il le space-evenly avec les nav__title-->
+        <p id="copyright">&copy; 2022 Les Ateliers de Léa. All rights reserved.</p>
     </div>
 </body>
 

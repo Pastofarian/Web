@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/millesime.css">
     <title>Menu - Le Millésime</title>
+    <!--Aseglio Christophe Examen 24/06/2022-->
 </head>
 
 <body>
@@ -15,25 +16,27 @@
             <a href="https://www.facebook.com/" target="_blank"><img id="facebook"
                     src="/Web/Millesime/images/facebook-logo-circle-white.png" alt="facebook"></a><a
                 href="https://www.instagram.com/" target="_blank"><img id="instagram"
-                    src="/Web/Millesime/images/instagram-logo-black-transparent-381383913.png" target="_blank"
-                    alt="instagram"></a>
+                    src="/Web/Millesime/images/instagram-logo-black-transparent-381383913.png" alt="instagram"></a>
         </div>
-        <h1>Le millésime</h1>
+        <h1>Le Millésime</h1>
         <nav>
             <ul class="navigation_menu">
-                <li><a class="menu_link" href="index.html" title="Le restaurant">LE RESTAURANT</a></li>
+                <!--Contact & réservations-->
+                <li><a class="menu_link" href="contact.html" title="Contact">CONTACT</a></li>
                 <li>|</li>
+                <!--Brochure opens in a blank page-->
+                <li><a class="menu_link" href="brochure.pdf" target="_blank" title="Brochure">BROCHURE</a></li>
+                <li>|</li>
+                <!--link "Les chambres" not in use-->
                 <li><a class="menu_link" href="#" title="Les chambres">LES CHAMBRES</a></li>
                 <li>|</li>
                 <li><a class="menu_link" href="cuisine.html" title="Carte & Menus">CARTE & MENU</a></li>
                 <li>|</li>
-                <li><a class="menu_link" href="brochure.pdf" target="_blank" title="Brochure">BROCHURE</a></li>
-                <li>|</li>
-                <li><a class="menu_link" href="contact.html" title="Contact">CONTACT</a></li>
+                <li><a class="menu_link" href="index.html" title="Le restaurant">LE RESTAURANT</a></li>
             </ul>
         </nav>
     </header>
-    <main>
+    <main role="main">
         <div id="cuisine_slide"></div>
         <div class="news yellow full-width">
             <span>Breaking News</span>
@@ -72,9 +75,9 @@
     </main>
     <footer class="footer">
         <ul class="footer__nav">
-            <li class="nav__item">
+            <li>
                 <h2>Horaires d'ouverture</h2>
-
+            </li>
             <li>
                 <p>Mardi - Samedi</p>
             </li>
@@ -86,11 +89,12 @@
             <li>
                 <p>19:00 - 21:30</p>
             </li>
-            </li>
         </ul>
         <ul class="footer__nav">
             <li class="nav__item">
+            <li>
                 <h2>Fermeture annuelle</h2>
+            </li>
             <li>
                 <p>Le 7 & 8 juin
             </li>
@@ -105,7 +109,9 @@
         </ul>
         <ul class="footer__nav">
             <li class="nav__item">
+            <li>
                 <h2>Le Millésime</h2>
+            </li>
             <li>
                 <p>1 rue Traversière
             </li>
@@ -119,28 +125,25 @@
             </li>
         </ul>
         <ul class="footer__nav">
-            <li class="nav__item">
+            <li>
                 <h2>Suivez-nous !</h2>
+            </li>
             <li>
-                <a class="nav__title" href="https://www.facebook.com/">Facebook</a>
+                <a class="nav__title" href="https://www.facebook.com/" target="_blank">Facebook</a>
             </li>
 
             <li>
-                <a class="nav__title" href="https://www.instagram.com/">Instagram</a>
+                <a class="nav__title" href="https://www.instagram.com/" target="_blank">Instagram</a>
             </li>
 
             <li>
-                <a class="nav__title" href="https://twitter.com/">Twitter</a>
-            </li>
+                <a class="nav__title" href="https://twitter.com/" target="_blank">Twitter</a>
             </li>
         </ul>
-
-        <div class="legal">
-            <p id="copyright">&copy; 2022 Le Millésime. All rights reserved.</p>
-        </div>
-        </div>
     </footer>
-
+    <div>
+        <p id="copyright">&copy; 2022 Le Millésime. All rights reserved.</p>
+    </div>
 </body>
 
 </html>

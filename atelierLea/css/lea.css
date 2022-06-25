@@ -1,4 +1,4 @@
-/*Aseglio Christophe Examen 24/06/2022*/
+/*Examen 24/06/2022*/
 /*Fonctionne sous Mozilla Firefox, problème d'affichage d'icone pour Chrome - Bootstrap icon ?*/
 /*Google fonts : Cherrish, Poppins, Roboto, Great vibes*/
 @import url('https://fonts.googleapis.com/css2?family=Cherish&family=Great+Vibes&family=Poppins:ital,wght@1,300&family=Roboto:wght@300&display=swap');
@@ -93,9 +93,9 @@ h3 {
 #main_slide {
     padding-top: 0%;
     margin: 0%;
-    background-image: url(../images/02.jpg);
+    background-image: url(../images/09.jpg);
     width: 100%;
-    height: 1000px;
+    height: 600px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -105,24 +105,24 @@ strong {
     font-weight: normal;
 }
 
-#cuisine_slide {
+#techniques_slide {
     padding-top: 0%;
     margin: 0%;
-    background-image: url(../images/07.jpg);
+    background-image: url(../images/04.jpg);
     width: 100%;
-    height: 1000px;
+    height: 700px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-.summer_menu {
+.techniques {
     line-height: 1.65em;
     padding: 20px 200px 5px 200px;
     font-family: 'Poppins', sans-serif;
 }
 
-.prices_summer_menu {
+.etVous {
     line-height: 1.65em;
     padding: 5px 200px 50px 200px;
     text-align: right;
@@ -181,7 +181,7 @@ strong {
 }
 
 .container_parent {
-    background-image: url(../images/05.jpg);
+    background-image: url(../images/02.jpg);
     height: 1000px;
     background-repeat: no-repeat;
     background-position: center;
@@ -213,10 +213,10 @@ strong {
 #map {
     transform: rotate(15deg);
     /* faire tourner + effet polaroid*/
-    height: 400px;
+    width: 600px;
     position: relative;
-    left: 22em;
-    bottom: 25em;
+    left: 30em;
+    bottom: 23em;
     border-style: solid;
     border-color: white;
     border-width: 7px 7px 25px 7px;
@@ -230,6 +230,51 @@ strong {
     padding: 20px 20px;
     margin: 20px 20px;
     cursor: pointer;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 800px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.newsDisplay {
+    background: url(../images/06.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #000000;
+    padding: 5em 20em;
+    line-height: 3em;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+#news1 {
+    color: #000000;
+}
+
+#news2 {
+    color: #ff0000;
+}
+
+#news3 {
+    color: #000fff;
 }
 
 /* code breaking news trouvé sur internet -->https://www.codehim.com/html5-css3/breaking-news-ticker-html-code/*/
